@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Mona Sans";
+    src: url(Mona-Sans.ttf);
+}
+
+body {
+    font-family: Mona Sans;
+    height: 100vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: #0E121A;
+    font-size: 20px;
+    
+}
+
+h3 {
+    color: #7141C8;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 1%;
+    border: 1px solid rgba(255, 255, 255, 0.286);
+    border-radius: 4px;
+    background:#1B224A;
+}
+span {
+    margin: 10px;
+    color: #FFA28B;
+    font-size: 15px;
+}
+label {
+    color:#fff;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    outline: 0;
+    resize: none;
+    border-radius: 2px;
+    font-family: "Mona Sans";
+    padding: 3px;
+    font-size: 20px;
+    color:#616871;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    
+    
+}
+
+/* errores de validacion */
+.errorInput {
+    border: 2px solid #FFA28B;
+}
+
+/* errores de validacion  */
+
+
+button {
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    background: #454C6D;
+    color: #3FB950;
+    cursor:pointer;
+    font-size: 20px;
+    font-family: "Mona Sans";
+}
+
+button:hover {
+    background: white;
+    color:#7141C8;
+}
+
